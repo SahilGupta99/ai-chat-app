@@ -10,7 +10,8 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError
 app = Flask(__name__)
 
 # Your API key
-API_KEY = "AIzaSyDt5TGZl7Y1yG4x9WhUgeX6kOW_okwEixY"
+
+API_KEY = "REPLACE_WITH_YOUR_API_KEY"
 
 # Working models - use the ones we know work
 WORKING_MODELS = [
